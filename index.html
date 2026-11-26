@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="마인드맵으로 생각을 정리하고 영어 파트너 챗을 준비하세요.">
+  <title>MindChat · 파트너 챗 준비</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell nav">
+      <button class="brand" data-action="home"><span class="logo" aria-hidden="true">✦</span> MindChat</button>
+      <nav aria-label="주 메뉴">
+        <button data-action="home" data-tab="home">홈</button>
+        <button data-action="edit" data-tab="map">마인드맵 작성</button>
+        <button data-action="library" data-tab="library">저장된 마인드맵</button>
+      </nav>
+      <button class="primary nav-new" data-action="new">＋ 새 마인드맵 만들기</button>
+    </div>
+  </header>
+  <main class="shell" id="app"></main>
+  <footer class="shell footer"><strong>MindChat</strong><span>영어 파트너 챗 준비 워크스페이스</span></footer>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
